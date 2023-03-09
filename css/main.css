@@ -2986,9 +2986,9 @@ html {
   font-size: calc(2.0625rem + 9.75vw);
   font-family: "Oswald", sans-serif;
   line-height: 1;
-  -webkit-text-stroke: 2px #f1f1f1;
+  /* -webkit-text-stroke: 2px #f1f1f1; */
   -text-fill-color: #fff;
-  -webkit-text-fill-color: #fff;
+  /* -webkit-text-fill-color: #fff; */
   font-weight: 500;
 }
 
