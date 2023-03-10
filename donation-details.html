@@ -47,6 +47,10 @@
       --speed: 9s;
     }
 
+    .featureBlock__donation__line .skill-bars__line {
+      background-color: #c27700;
+    }
+
     @keyframes slide {
       from {
         background-position-x: 0;
@@ -61,13 +65,13 @@
       width: calc(112px * 4);
       box-shadow: 0px 10px 13px -6px rgba(44, 62, 80, 1);
       background-color: var(--colour2);
-      background-image: repeating-linear-gradient(45deg, transparent, transparent 40px, var(--colour1) 40px, var(--colour1) 80px);
+      background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, var(--colour1) 5px, var(--colour1) 10px);
       animation: slide var(--speed) linear infinite;
       will-change: background-position;
     }
     
     .donation-progress .featureBlock__donation__line .skill-bars__line::before{
-      background-color: inherit !important;
+      display: none;
     }
   </style> 
 </head>
@@ -370,6 +374,16 @@
                   faucibus ex sed nibh
                   egestas elementum. Mauris et bibendum dui. Aenean consequat pulvinar luctus. Suspendisse consectetur
                   tristique tortor</p>
+
+                  <p class="donationDetails__text mb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur
+                    vulputate vestibulum Phasellus rhoncus, dolor eget
+                    viverra pretium, dolor tellus aliquet nunc, vitae ultricies erat elit eu lacus. Vestibulum non justo
+                    consectetur, cursus
+                    ante, tincidunt sapien. Nulla quis diam sit amet turpis interdum accumsan quis nec enim. Vivamus
+                    faucibus ex sed nibh
+                    egestas elementum. Mauris et bibendum dui. Aenean consequat pulvinar luctus. Suspendisse consectetur
+                    tristique tortor</p>
               </div>
             </div>
           </div>
@@ -413,7 +427,7 @@
                 <span class="skill-bars__line skill-bar bar" data-width="80%" style="width: 80%;"></span>
               </span>
             </div>
-            <span class="featureBlock__donation__text skill-bar mb-0 mt-3" data-width="80%" style="width: 80%;">80% Achieved</span>
+            <span class="featureBlock__donation__text skill-bar mb-2 mt-3" data-width="80%" style="width: 80%;">80% Achieved</span>
           </div>
         </div>
       </div>
@@ -454,7 +468,7 @@
   </main>
   <!-- Main End -->
   <!-- footer -->
-  <footer class="footer footer--bg footer--styleOne mt-3 pt-70 pb-40">
+  <footer class="footer footer--bg footer--styleOne mt-2 pt-50 pb-40">
     <img src="image/donation-deatail/footerShape2.png" alt="Web Shape" class="footer__shape">
     <div class="container">
       <div class="row align-items-center">
